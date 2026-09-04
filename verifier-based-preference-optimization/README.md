@@ -4,8 +4,6 @@ This project asks what happens after pre-training, when the training objective
 stops being next-token prediction and becomes "produce outputs a reward signal
 prefers."
 
-📄 **[Technical report (PDF)](report.pdf)** — 4–5 pages: full experimental detail, statistics, and limitations.
-
 **Central question:** DPO and GRPO both convert a scalar reward into a policy
 update, but they use the sampled data differently — DPO forms one pairwise
 comparison per prompt, GRPO uses all K samples via a group-normalized
